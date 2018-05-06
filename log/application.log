@@ -1,0 +1,19 @@
+05-05 23:30:59.808[                App.java:27 :INFO ] log4jPath: /Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/log4j.properties
+05-05 23:31:00.162[AbstractApplicationContext.java:590:INFO ] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38364841: startup date [Sat May 05 23:31:00 CST 2018]; root of context hierarchy
+05-05 23:31:00.241[AbstractApplicationContext.java:558:WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.w00429015.springConfig.SpringApplictionConfig]; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'appConfigFilePath' in value "file:${appConfigFilePath}/batchDeleteFilesConfig.properties"
+05-05 23:33:55.411[                App.java:27 :INFO ] log4jPath: /Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/log4j.properties
+05-05 23:33:55.717[AbstractApplicationContext.java:590:INFO ] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6385cb26: startup date [Sat May 05 23:33:55 CST 2018]; root of context hierarchy
+05-05 23:33:55.809[AbstractApplicationContext.java:558:WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.w00429015.springConfig.SpringApplictionConfig]; nested exception is java.io.FileNotFoundException: file:/Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/batchDeleteFilesConfig.properties (No such file or directory)
+05-05 23:36:32.489[                App.java:27 :INFO ] log4jPath: /Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/log4j.properties
+05-05 23:36:32.810[AbstractApplicationContext.java:590:INFO ] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6385cb26: startup date [Sat May 05 23:36:32 CST 2018]; root of context hierarchy
+05-05 23:36:32.906[AbstractApplicationContext.java:558:WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.w00429015.springConfig.SpringApplictionConfig]; nested exception is java.io.FileNotFoundException: file:/Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/batchDeleteFilesConfig.properties (No such file or directory)
+05-05 23:37:05.845[                App.java:27 :INFO ] log4jPath: /Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/log4j.properties
+05-05 23:37:06.118[AbstractApplicationContext.java:590:INFO ] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6385cb26: startup date [Sat May 05 23:37:06 CST 2018]; root of context hierarchy
+05-05 23:37:06.267[XmlBeanDefinitionReader.java:316:INFO ] Loading XML bean definitions from class path resource [applicationContext.xml]
+05-05 23:37:06.841[                App.java:39 :INFO ] user name: wangkai
+05-05 23:37:06.841[                App.java:40 :INFO ] user age: 28
+05-05 23:37:28.230[                App.java:27 :INFO ] log4jPath: /Users/wangkai/workspace/java_workspace/batchDeleteFiles/config/log4j.properties
+05-05 23:37:28.548[AbstractApplicationContext.java:590:INFO ] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6385cb26: startup date [Sat May 05 23:37:28 CST 2018]; root of context hierarchy
+05-05 23:37:28.719[XmlBeanDefinitionReader.java:316:INFO ] Loading XML bean definitions from class path resource [applicationContext.xml]
+05-05 23:37:29.362[                App.java:39 :INFO ] user name: litongxin
+05-05 23:37:29.363[                App.java:40 :INFO ] user age: 28
