@@ -13,9 +13,9 @@ import org.springframework.core.env.Environment;
  * @create: 2018-05-05 17:58
  */
 @Configuration
-@ImportResource("classpath:applicationContext.xml")
-@ComponentScan({"com.w00429015.common"})
-@PropertySource("${appConfigFilePath}/batchDeleteFilesConfig.properties")
+@ImportResource(locations = "classpath:applicationContext.xml")
+@ComponentScan(basePackages = {"com.w00429015"})
+@PropertySource(value = "file:${user.dir}/config/batchDeleteFilesConfig.properties", ignoreResourceNotFound = true)
 public class SpringApplictionConfig {
 
     @Autowired

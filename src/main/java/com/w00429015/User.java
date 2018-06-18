@@ -1,5 +1,8 @@
 package com.w00429015;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 /**
  * @program: batchDeleteFiles
  * @author: wangkai
@@ -7,14 +10,10 @@ package com.w00429015;
  * @description: 测试类
  * @create: 2018-04-30 23:17
  */
+@Component
 public class User {
-    private String name;
-    private int age;
-
-    public User(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+    private  String name;
+    private  int age;
 
     public void setName(String name) {
         this.name = name;

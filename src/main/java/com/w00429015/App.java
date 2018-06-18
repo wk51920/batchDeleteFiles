@@ -2,6 +2,7 @@ package com.w00429015;
 
 import com.w00429015.common.PropLoader;
 import com.w00429015.common.SpringContextUtil;
+import com.w00429015.services.FileDeleter;
 import com.w00429015.springConfig.SpringApplictionConfig;
 import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
@@ -35,8 +36,8 @@ public class App {
         initLog();
         initSpringContext();
 
-        User user = (User)SpringContextUtil.getBean("userBean");
-        logger.info("user name: {}", user.getName());
-        logger.info("user age: {}", user.getAge());
+        FileDeleter fileDeleter = context.getBean("baseFileDeleterImpl", FileDeleter.class);
+        fileDeleter.deleteFiles();
+
     }
 }
